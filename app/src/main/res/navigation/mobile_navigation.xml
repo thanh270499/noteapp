@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.noteapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_category"
+        android:name="com.example.noteapp.ui.gallery.GalleryFragment"
+        android:label="@string/menu_category"
+        tools:layout="@layout/fragment_category" />
+
+    <fragment
+        android:id="@+id/nav_priority"
+        android:name="com.example.noteapp.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_priority"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_status"
+        android:name="com.example.noteapp.ui.status.StatusFragment"
+        android:label="@string/menu_status"
+        tools:layout="@layout/fragment_status" />
+
+    <fragment
+        android:id="@+id/nav_note"
+        android:name="com.example.noteapp.ui.note.NoteFragment"
+        android:label="@string/menu_note"
+        tools:layout="@layout/fragment_note" />
+
+    <fragment
+        android:id="@+id/nav_edit"
+        android:name="com.example.noteapp.ui.edit.EditFragment"
+        android:label="@string/menu_edit"
+        tools:layout="@layout/fragment_edit" />
+
+    <fragment
+        android:id="@+id/nav_changepw"
+        android:name="com.example.noteapp.ui.change.ChangeFragment"
+        android:label="@string/menu_changepw"
+        tools:layout="@layout/fragment_change" />
+
+
+</navigation>
